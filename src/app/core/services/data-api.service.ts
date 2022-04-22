@@ -101,10 +101,10 @@ export class DataApiService {
 		const url_api = 'https://db.buckapi.com:3032/api/orders?filter[where][status]=new';
 		return (this.orders = this.http.get(url_api));
 	}
-	// getAllCategories(){
-	// 	const url_api = 'https://db.buckapi.com:3032/api/categories';
-	// 	return (this.categories = this.http.get(url_api));
-	// }
+	getAllCategories(){
+		const url_api = 'https://db.buckapi.com:3032/api/categories';
+		return (this.categories = this.http.get(url_api));
+	}
 
 	// getAllTixsInitload(){
 	// 	const url_api = 'https://db.buckapi.com:3025/api/tixes?filter[where][initload]=activated';
