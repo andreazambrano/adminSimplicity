@@ -19,15 +19,15 @@ export const MENU: MenuItem[] = [
         isTitle: true
     },
       {
-        label: 'Ordenes',
+        label: 'Casos de exito',
         icon: 'users',
-        link: '/orders',
+        // link: '/orders',
     },      
-     {
-        label: 'Productos',
-        icon: 'inbox',
-        link: '/products',
-    }, 
+    //  {
+    //     label: 'Productos',
+    //     icon: 'inbox',
+    //     link: '/products',
+    // }, 
       
     // {
     //     label: 'Email',
