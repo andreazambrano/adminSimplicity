@@ -27,7 +27,7 @@
                 <div class="form-group">
                   <label> Titulo</label>
                   <input type="text" class="form-control" formControlName="name"
-                  [ngClass]="{'is-invalid': typesubmit && type.name.errors}" placeholder="Nombre del producto" />
+                  [ngClass]="{'is-invalid': typesubmit && type.name.errors}" placeholder="Titulo" />
                   <div *ngIf="typesubmit && type.name.errors" class="invalid-feedback">
                     <span *ngIf="type.name.errors.required">Este campo es requerido.</span>
                   </div>
@@ -35,7 +35,7 @@
                  <div class="form-group">
                   <label> Sub titulo</label>
                   <input type="text" class="form-control" formControlName="name"
-                  [ngClass]="{'is-invalid': typesubmit && type.name.errors}" placeholder="Nombre del producto" />
+                  [ngClass]="{'is-invalid': typesubmit && type.name.errors}" placeholder="Sub titulo" />
                   <div *ngIf="typesubmit && type.name.errors" class="invalid-feedback">
                     <span *ngIf="type.name.errors.required">Este campo es requerido.</span>
                   </div>
