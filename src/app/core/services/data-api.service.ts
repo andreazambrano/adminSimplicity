@@ -58,10 +58,10 @@ export class DataApiService {
 		.put<TixInterface>(url_api, tix)
 		.pipe(map(data => data));
 	}
-	getAllTixs(){
-		const url_api = 'hhttps://db.buckapi.com:3032/api/tixes?filter[where][status]=activated';
-		return this.http.get(url_api);
-	}
+	// getAllTixs(){
+	// 	const url_api = 'hhttps://db.buckapi.com:3032/api/tixes?filter[where][status]=activated';
+	// 	return this.http.get(url_api);
+	// }
  		getTamanoOrders(){
 	 	const url_api = 'https://db.buckapi.com:3032/api/orders?filter[where][status]=new';
 	 	return (this.dentists = this.http.get(url_api));
@@ -101,10 +101,10 @@ export class DataApiService {
 		const url_api = 'https://db.buckapi.com:3032/api/orders?filter[where][status]=new';
 		return (this.orders = this.http.get(url_api));
 	}
-	getAllCategories(){
-		const url_api = 'https://db.buckapi.com:3032/api/categories';
-		return (this.categories = this.http.get(url_api));
-	}
+	// getAllCategories(){
+	// 	const url_api = 'https://db.buckapi.com:3032/api/categories';
+	// 	return (this.categories = this.http.get(url_api));
+	// }
 
 	// getAllTixsInitload(){
 	// 	const url_api = 'https://db.buckapi.com:3025/api/tixes?filter[where][initload]=activated';
