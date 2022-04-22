@@ -18,16 +18,16 @@ export const MENU: MenuItem[] = [
         label: 'Apps',
         isTitle: true
     },
-      {
+    //   {
+    //     label: 'Casos de exito',
+    //     icon: 'users',
+    //     // link: '/orders',
+    // },      
+     {
         label: 'Casos de exito',
-        icon: 'users',
-        // link: '/orders',
-    },      
-    //  {
-    //     label: 'Productos',
-    //     icon: 'inbox',
-    //     link: '/products',
-    // }, 
+        icon: 'inbox',
+        link: '/products',
+    }, 
       
     // {
     //     label: 'Email',
